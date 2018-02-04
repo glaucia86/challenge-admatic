@@ -2,7 +2,7 @@
 
 Repositório do desafio de código da Admatic para a vaga de Desenvolvedor Full Stack Sênior para a equipe da B2WAds. O link do desafio do da vaga encontra-se [AQUI](https://github.com/admatic-tool/vaga-b2wads-senior)
 
-## Recursos Utilizados no Desenvolvimento da Aplicação:
+## Recursos Utilizados no Desenvolvimento da Aplicação: :fire: :fire:
 
 - Visual Studio Code
 - Node.Js ~ v. 8.x
