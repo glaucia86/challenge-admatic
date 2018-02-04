@@ -12,7 +12,7 @@ const app = express();
 const mongoose = require('mongoose');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
-const sql = require("mssql");
+const connection = require("./connection/connection"); //Conexão com a base de dados (via - MS SQL):
 const port = 3000;
 
 const post = require('./api/v1/debit');
@@ -29,9 +29,6 @@ const post = require('./api/v1/debit');
 //mongoose.connect(config.DBHost, options);
 ///const db = mongoose.connection;
 //db.on('error', console.error.bind(console, 'Erro ao conectar com a Base de Dados....: '));
-
-//Conexão com a base de dados (via - MS SQL):
-const connection = require("./connection/connection");
 
 //Essa parte do código estaremos mostrando os logs quando acontecer os testes:
 if(config.util.getEnv('NODE_ENV') !== 'Test') {
