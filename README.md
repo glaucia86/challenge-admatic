@@ -9,25 +9,12 @@ Repositório do desafio de código da Admatic para a vaga de Desenvolvedor Full 
 - Npm ~ v. 5.x
 - Express.Js ~ v.4.0;
 - Conceito RestFul;
-- MongoDb
+- MongoDb;
+- SQL SERVER;
 - RabbitMq
 - JSON data (para retornar os dados);
 - PostMan (testar a API criada);
 
-
-## Testando a Aplicação no Postman: 
-
-Caso queira testar as API's criadas no projeto, primeiro baixe o [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop).
-Depois de realizar o download do Postman, basta agora realizar os passos abaiaxo para 
-poder testar cada API criada!
-
-  ROTA                    |     HTTP(Verbo)   |      Descrição        | 
-------------------------- | ----------------- | --------------------- | 
-/api/produtos             |       GET         | Selecionar Todos      | 
-/api/produtos             |       POST        | Criar Produto         | 
-/api/produtos/:produto_id |       GET         | Selecionar Por Id     | 
-/api/produtos/:produto_id |       PUT         | Atualizar Por Id      |    
-/api/produtos/:produto_id |       DELETE      | Excluir Por Id        |
 
 ## Executar Localmente: :rocket: :rocket:
 
