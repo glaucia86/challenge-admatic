@@ -1,0 +1,25 @@
+{
+  "name": "challenge-admatic-glaucia",
+  "version": "1.0.0",
+  "description": "'Repositório dedicado ao desafio de código da Admatic para a vaga de Full Stack.\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.14.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glaucia86/challenge-admatic"
+  },
+  "bugs": {
+    "url": "https://github.com/glaucia86/challenge-admatic/issues"
+  },
+  "author": "Glaucia Lemos",
+  "license": "MIT"
+}
